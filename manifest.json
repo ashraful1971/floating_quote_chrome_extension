@@ -1,0 +1,15 @@
+{
+    "short_name": "Foating Quote",
+    "name": "FloatingQuote",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["content.css"],
+            "js": ["content.js"]
+        }
+    ],
+
+    "permissions": ["tabs"],
+    "version": "1.0"
+}
